@@ -142,5 +142,73 @@
         ],
         "extraQuestion": "Em 2023, arredondamente, que percentagem da população portuguesa tinha como sobrenome \"Silva\"?",
         "extraAnswer": "9.5%"
+    },
+    {
+        "id": "pt70a",
+        "question": "Listem os 7 anões da Branca de Neve.",
+        "answers": [
+            "Atchim",
+            "Zangado",
+            "Soneca",
+            "Tímido",
+            "Feliz",
+            "Preguiçoso",
+            "Vaidoso"
+        ],
+        "extraQuestion": "Em euros, ajustado para inflação, quanto dinheiro fez a Branca de Neve na bilheteira quando foi lançado pela primeira vez em 1937?",
+        "extraAnswer": "1.4 mil milhões/biliões"
+    },
+    {
+        "id": "pt69a",
+        "question": "Listem os 11 filmes com maior bilheteira de Stephen Spielberg",
+        "answers": [
+            "ET: O Extraterrestre",
+            "Indiana Jones e o Templo Peredido",
+            "Tubarão (Jaws)",
+            "Parque Jurássico: o Mundo Perdido",
+            "Parque Jurássico",
+            "Indiana Jones e a Última Cruzada",
+            "Indiana Jones e os Salteadores da Arca Perdida",
+            "O Resgate do Soldado Ryan",
+            "Guerra dos Mundos",
+            "Indiana Jones e o Reino da Caveira Crystal",
+            "Ready Player One - Jogador 1"
+        ],
+        "extraQuestion": "Quantas pessoas foram assassinadas pelo tubarão em Tubarão(Jaws)?",
+        "extraAnswer": "5"
+    },
+    {
+        "id": "pt38o",
+        "question": "Listem as 8 formas comuns de cozinhar um ovo",
+        "answers": [
+            "Ovo cozido",
+            "Ovo escalfado",
+            "Ovo macio/cozido mole",
+            "Omelete",
+            "Ovos mexidos",
+            "Ovos assados",
+            "Ovos fritos",
+            "Ovo Coados/Mimado (Coddled)"
+        ],
+        "extraQuestion": "Quantos minutos demora para cozer um ovo de avestruz?",
+        "extraAnswer": "40"
+    },
+    {
+        "id": "pt37a",
+        "question": "Listem os últimos 7 presidentes portugueses (incluindo o atual)",
+        "answers": [
+            "Marcelo Rebelo de Sousa",
+            "Mário Soares",
+            "Aníbal Cavaco Silva",
+            "António Ramalho Eanes",
+            "Jorge Sampaio",
+            "Francisco da Costa Gomes",
+            "António de Spínola"
+        ],
+        "extraQuestion": "Qual o salário mensal bruto do atula Presidente da República?",
+        "extraAnswer": "7400€"
     }
+
+
+
 ]
