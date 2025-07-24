@@ -4,8 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MrLister Card Generator</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="stylesheet.css" rel="stylesheet" />
 </head>
 <body>
-    <p>Nothing here yet</p>
+    <div class="container text-center pt-3 mt-3">
+        <h5>Board helper</h5>
+        <h3>Gerador de cartas de Mr Lister</h3>
+        <br/>
+
+        <div class="form-group container">
+            <h4 id="question" style="font-size: xx-large;"><b>A categoria a listar fica aqui</b></h4>
+            <div class="row" id="answers">
+
+                <div class="checkbox col-md-6">
+                    <label style="font-size: x-large;">
+                        <fieldset class="form-inline">
+                            <input type="checkbox"/>
+                            Coisa 1
+                        </fieldset>
+                    </label>
+                </div>
+
+                <div class="checkbox col-md-6">
+                    <label style="font-size: x-large;">
+                        <fieldset class="form-inline">
+                            <input type="checkbox" />
+                            Coisa 2
+                        </fieldset>
+                    </label>
+                </div>
+
+                <div class="checkbox col-md-6">
+                    <label style="font-size: x-large;">
+                        <fieldset class="form-inline">
+                            <input type="checkbox" />
+                            Coisa 3
+                        </fieldset>
+                    </label>
+                </div>
+
+                <div class="checkbox col-md-6">
+                    <label style="font-size: x-large;">
+                        <fieldset class="form-inline">
+                            <input type="checkbox" />
+                            Coisa 4
+                        </fieldset>
+                    </label>
+                </div>
+                
+            </div>
+        </div>
+
+        <br/>
+
+        <div class="container pt-3 mt-3">
+            <h4><b>Última chance</b></h4>
+            <h4 id="extraQuestion"> A pergunta extra fica aqui</h4>
+            <h5 id="extraAnswer">20</h5>
+        </div>
+
+        <p class="pt-3 mt-3 id="cardID">PT00</p>
+
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.5.1/knockout-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+    <script src="mrlister.js"></script>
 </body>
 </html>

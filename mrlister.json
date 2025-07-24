@@ -1,0 +1,39 @@
+[
+    {
+        "id": "pt35o",
+        "question": "Lista os 7 signos do zodíaco representados por animais",
+        "answers": [
+            "Leão",
+            "Capricórnio",
+            "Escorpião",
+            "Peixes",
+            "Caranguejo",
+            "Touro",
+            "Carneiro"
+        ],
+        "extraQuestion": "Quantas constelações oficiais existem?",
+        "extraAnswer": "88"
+    },
+    {
+        "id": "pt30ou",
+        "question": "Combinado, existem 14 maravilhas do mundo, velhas e novas. Listem-as",
+        "answers": [
+            "Taj Mahal",
+            "Pirâmides do Egito",
+            "Petra",
+            "Colosso de Rodes",
+            "Coliseu",
+            "Farol de Alexandria",
+            "Chichén Itza",
+            "Estátua de Zeus em Olímpia",
+            "Machu Pichu",
+            "Jardins Suspensos da Babilónia",
+            "Muralha da China",
+            "Tempo de Artémis",
+            "Cristo Redentor",
+            "Mausoléu de Halicarnasso"
+        ],
+        "extraQuestion": "Arredondamente, quantas pessoas visitaram Stonehenge, no Reino Unido, em 2019?",
+        "extraAnswer": "1.4 milhões"
+    }
+]
