@@ -33,7 +33,114 @@
             "Cristo Redentor",
             "Mausoléu de Halicarnasso"
         ],
-        "extraQuestion": "Arredondamente, quantas pessoas visitaram Stonehenge, no Reino Unido, em 2019?",
+        "extraQuestion": "Arredondamente, quantas pessoas visitaram Stonehenge, no Reino Unido, em 2024?",
         "extraAnswer": "1.4 milhões"
+    },
+    {
+        "id": "pt29a",
+        "question": "Sem contar molho de tomate e queijo, listes os 9 toppings(ingredientes) mais populares de pizza",
+        "answers": [
+            "Pepperoni",
+            "Bacon",
+            "Cogumelos",
+            "Azeitonas (pretas)",
+            "Cebola",
+            "Pimento Verde",
+            "Salsicha",
+            "Ananás",
+            "Espinafre"
+        ],
+        "extraQuestion": "Em milhões, quantos lares (2019) consomem pizza congelada ou refrigerada em Portugal?",
+        "extraAnswer": "1.9 milhões"
+    },
+    {
+        "id": "pt52o",
+        "question": "Listem os 10 animais mais comuns (excluindo humanos) que foram enviados para o espaço",
+        "answers": [
+            "Cães",
+            "Macacos",
+            "Aranhas",
+            "Chimapzés",
+            "Urso de Água",
+            "Peixe",
+            "Minhocas",
+            "Roedores",
+            "Anfíbios",
+            "Gatos"
+        ],
+        "extraQuestion": "Quanto tempo demora para um humano cair da fronteira do espaço até a superfície terrestre?",
+        "extraAnswer": "4m 20s"
+    },
+    {
+        "id": "pt67au",
+        "question": "Listem os 10 países que são os maiores produtores de vinho do mundo. (2023)",
+        "answers": [
+            "França",
+            "Itália",
+            "Espanha",
+            "EUA",
+            "Chile",
+            "Austrália",
+            "África do Sul",
+            "Argentina",
+            "Alemanha",
+            "Portugal"
+        ],
+        "extraQuestion": "Quantos litros de vinho forma produzidos em Portugal em 2023?",
+        "extraAnswer": "7.5 milhões"
+    },
+    {
+        "id": "pt17o",
+        "question": "Listem os 10 felinos \"grandes\" que existem na Terra",
+        "answers": [
+            "Tigre",
+            "Leopardo da Neve",
+            "Leão",
+            "Chita",
+            "Jaguar",
+            "Lince",
+            "Puma/Pantera",
+            "Leopardo-nebuloso",
+            "Leopardo",
+            "Caracal/Lince do Deserto"
+        ],
+        "extraQuestion": "Quantos segundos demora para uma chita acelerar dos 0 aos 100 km/h",
+        "extraAnswer": "3 segundos"
+    },
+    {
+        "id": "pt47o",
+        "question": "Listem os 10 pesadelos mais comuns",
+        "answers": [
+            "Traição",
+            "Perder os dentes",
+            "Morrer",
+            "Ferimento",
+            "Falhar um teste",
+            "Nú em público",
+            "Estar preso",
+            "Ser perseguido",
+            "Perdido",
+            "Cair"
+        ],
+        "extraQuestion": "Qual é o recorde, em horas, da maior deprivação de sono?",
+        "extraAnswer": "264 horas"
+    },
+    {
+        "id": "pt09su",
+        "question": "Listem os 10 sobrenomes mais frequentes em Portugal (2023)",
+        "answers": [
+            "Silva",
+            "Santos",
+            "Ferreira",
+            "Pereira",
+            "Rodrigues",
+            "Costa",
+            "Oliveira",
+            "Martins",
+            "Sousa",
+            "Gonçalves"
+        ],
+        "extraQuestion": "Em 2023, arredondamente, que percentagem da população portuguesa tinha como sobrenome \"Silva\"?",
+        "extraAnswer": "9.5%"
     }
 ]
