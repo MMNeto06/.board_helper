@@ -207,6 +207,582 @@
         ],
         "extraQuestion": "Qual o salário mensal bruto do atula Presidente da República?",
         "extraAnswer": "7400€"
+    },
+    {
+        "id": "pt14s",
+        "question": "Listem os 7 ingredientes que fazem parte do Big Mac",
+        "answers": [
+            "Alface",
+            "Queijo (Cheddar)",
+            "Pepino",
+            "Pão Big Mac",
+            "Cebola (desidratada)",
+            "Hambúrguer (Carne de Vaca)",
+            "Molho Big Mac"
+        ],
+        "extraQuestion": "A partir de que ano é que o Big Mac começou a ser vendido?",
+        "extraAnswer": "1968"
+    },
+    {
+        "id": "pt03o",
+        "question": "Liste os 6 parques da Disneylândia ao redor do mundo",
+        "answers": [
+            "Paris",
+            "Orlando",
+            "Anaheim",
+            "Hong Kong",
+            "Xangai",
+            "Tóquio"
+        ],
+        "extraQuestion": "Até 2012, quantos bebês nasceram em uma Disneylândia?",
+        "extraAnswer": "4"
+    },
+    {
+        "id": "pt04ou",
+        "question": "Liste os 8 tipos de ovos comumente comidos pelos humanos",
+        "answers": [
+            "Frango",
+            "Codorna",
+            "Pato",
+            "Ganso",
+            "Peru",
+            "Avestruz",
+            "Emu",
+            "Peixe (ou Caviar)"
+        ],
+        "extraQuestion": "Em euros, quanto custa 1 kg do caviar mais caro do mundo (Alvas Caviar ou Caviar de Baleia Branca Iranina)?",
+        "extraAnswer": "37000€"
+    },
+    {
+        "id": "pt08ou",
+        "question": "Liste os 8 livros da série Harry Potter",
+        "answers": [
+            "A Pedra Filosofal",
+            "A Câmara Secreta/A Câmara dos Segredos",
+            "O Prisioneiro de Azkaban",
+            "O Cálice de Fogo",
+            "A Ordem da Fênix",
+            "O Enigma do Príncipe/O Príncipe Mesterioso",
+            "As Relíquias da Morte/Os Talismãs da Morte",
+            "A Criança Amaldiçoada"
+        ],
+        "extraQuestion": "Aproximadamente, quanto J.K. Rowling ganhou com a série Harry Potter (em dólares)?",
+        "extraAnswer": "1 bilião/mil milhão"
+    },
+    {
+        "id": "pt10ou",
+        "question": "Liste os 12 filmes com maior bilheteira de Leonardo DiCaprio",
+        "answers": [
+            "Titanic",
+            "A Origem (Inception)",
+            "Prenda-me Se For Capaz (Catch Me If You Can)",
+            "Django Unchained",
+            "O Grande Gatsby",
+            "Os Infiltrados (The Departed)",
+            "Ilha do Medo (Shutter Island)",
+            "O Lobo de Wall Street",
+            "O Aviador",
+            "Gangues de Nova York",
+            "The Revenant : O Renascido",
+            "Era uma vez em Hollywood"
+        ],
+        "extraQuestion": "O que fez menos dinheiro entre estes foi Gangues de Nova York. Quanto dinheiro fez em €?",
+        "extraAnswer": "164 958 532,66€"
+    },
+    {
+        "id": "pt13o",
+        "question": "Liste os 11 atores do remake de 2001 de 'Onze Homens e um Segredo'(Ocean's Eleven)",
+        "answers": [
+            "George Clooney",
+            "Brad Pitt",
+            "Matt Damon",
+            "Don Cheadle",
+            "Bernie Mac",
+            "Scott Caan",
+            "Casey Affleck",
+            "Carl Reiner",
+            "Elliot Gould",
+            "Eddie Jemison",
+            "Shaobo Qin"
+        ],
+        "extraQuestion": "Frank Sinatra estrelou no filme original. Quantos anos tinha Frank Sinatra quando morreu?",
+        "extraAnswer": "82"
+    },
+    {
+        "id": "pt12o",
+        "question": "Liste os 10 espaços num tabuleiro de Monopólio de que não são propriedades nem estações",
+        "answers": [
+            "Partida",
+            "Companhia de Eletrecidade",
+            "Caixa de Comunidade",
+            "Estacionamento Livre",
+            "Imposto sobre capitais",
+            "Companhia das Águas",
+            "Sorte",
+            "Vai para a Prisão",
+            "Prisão",
+            "Imposto de Luxo"
+        ],
+        "extraQuestion": "Quanto dinheiro traz uma caixa de monopólio?",
+        "extraAnswer": "20580"
+    },
+    {
+        "id": "pt20o",
+        "question": "Liste os 10 filmes com maior bilheteira de Julia Roberts",
+        "answers": [
+            "Onze Homens e um Segredo (Ocean's Eleven)",
+            "Uma Linda Mulher (Pretty Woman)",
+            "Noiva em Fuga (Runaway Bride)",
+            "O Casamento do Meu Melhor Amigo",
+            "Erin Brockovich - Uma Mulher de Talento",
+            "Doze Homens e Outro Segredo (Ocean's Twelve)",
+            "Hook - A Volta do Capitão Gancho",
+            "Um Lugar Chamado Notting Hill",
+            "Valentine's Day",
+            "Wonder - Encantador"
+        ],
+        "extraQuestion": "Qual é a altura de Julia Roberts?",
+        "extraAnswer": "1.70m"
+    },
+    {
+        "id": "pt21o",
+        "question": "Liste os 8 países que venceram a Copa do Mundo de Futebol",
+        "answers": [
+            "Brasil",
+            "Argentina",
+            "Uruguai",
+            "Itália",
+            "Alemanha",
+            "Inglaterra",
+            "França",
+            "Espanha"
+        ],
+        "extraQuestion": "Qual foi o placar do jogo entre Austrália e Samoa Americana na Copa de 2001 (maior goleada da história)?",
+        "extraAnswer": "31-0"
+    }
+    ,{
+        "id": "pt22ou",
+        "question": "Liste as 10 maiores cadeias de fast food",
+        "answers": [
+            "McDonald's",
+            "KFC",
+            "Subway",
+            "Pizza Hut",
+            "Starbucks",
+            "Burger King",
+            "Domino's",
+            "Dunkin' Donuts",
+            "Wendy's",
+            "Taco Bell"
+        ],
+        "extraQuestion": "Quantas unidades o McDonald's possui no mundo (superando outras redes combinadas)?",
+        "extraAnswer": "41.822"
+    },
+    {
+        "id": "pt23o",
+        "question": "Liste os 14 países do mundo com população acima dos 100 milhões",
+        "answers": [
+            "Índia",
+            "China",
+            "Estados Unidos",
+            "Indonésia",
+            "Paquistão",
+            "Nigéria",
+            "Brasil",
+            "Bangladesh",
+            "Rússia",
+            "México",
+            "Etiópia",
+            "Japão",
+            "Filipinas",
+            "Egito"
+        ],
+        "extraQuestion": "Qual é o percentual da população mundial que vive na China?",
+        "extraAnswer": "~18%"
+    },
+    {
+        "id": "pt24o",
+        "question": "Liste os 14 personagens prinicpais do universo Looney Tunes",
+        "answers": [
+            "Pernalonga/Bugs Bunny",
+            "Patolino/Daffy Duck",
+            "Gaguinho/Porky Pig",
+            "Hortelino/Elmer Fudd",
+            "Piu-Piu/Tweety",
+            "Frajola/Sylvester",
+            "Papa-Léguas/Road Runner",
+            "Wile E Coyote",
+            "Demônio da Tasmânia",
+            "Sam Bigodes/Yosemite Sam",
+            "Pepe Le Gambá/Le Pew",
+            "Marvin, o Marciano",
+            "Frangolino/Foghorn Leghorn",
+            "Ligeirinho/Speedy Gozalez"
+        ],
+        "extraQuestion": "Quantos anos o Pernalonga completará em 2025?",
+        "extraAnswer": "85 – mesma idade de Chuck Norris!"
+    },
+    {
+        "id": "pt25o",
+        "question": "Liste teclas de um teclado da Apple com 1 ou mais palavras",
+        "answers": [
+            "Esc",
+            "Tab",
+            "Caps Lock",
+            "Shift",
+            "Fn",
+            "Control",
+            "Alt/Option",
+            "Command",
+            "Enter/Return",
+            "Delete"
+        ],
+        "extraQuestion": "Quantas letras possui o alfabeto Tamil (o mais longo do mundo)?",
+        "extraAnswer": "247"
+    },
+    {
+        "id": "pt26o",
+        "question": "Liste os 10 maiores compositores clássicos segundo o New York Times",
+        "answers": [
+            "Bach",
+            "Mozart",
+            "Beethoven",
+            "Wagner",
+            "Schubert",
+            "Schumann",
+            "Chopin",
+            "Liszt",
+            "Brahms",
+            "Verdi"
+        ],
+        "extraQuestion": "Quantas horas dura o ciclo completo de óperas de Wagner ('O Anel do Nibelungo')?",
+        "extraAnswer": "15"
+    },
+    {
+        "id": "pt27o",
+        "question": "Liste as 7 quantidades de dinheiro (valores impressos) disponíveis no jogo Monopoly",
+        "answers": [
+            "1",
+            "5",
+            "10",
+            "20",
+            "50",
+            "100",
+            "500"
+        ],
+        "extraQuestion": "Quantas casas verdes existem em uma caixa de Monopoly?",
+        "extraAnswer": "32"
+    },
+    {
+        "id": "pt16o",
+        "question": "Liste as 8 espécies animais mais venenosas do mundo",
+        "answers": [
+            "Serpente",
+            "Aranha",
+            "Alforreca",
+            "Polvo",
+            "Caracol",
+            "Peixe",
+            "Escorpião",
+            "Rã"
+        ],
+        "extraQuestion": "O Polvo-de-Anéis-Azuis tem veneno suficiente para matar quantos humanos?",
+        "extraAnswer": "26"
+    },
+    {
+        "id": "pt28o",
+        "question": "Liste os 12 animais do horóscopo chinês",
+        "answers": [
+            "Rato",
+            "Boi",
+            "Tigre",
+            "Coelho",
+            "Dragão",
+            "Cobra",
+            "Cavalo",
+            "Cabra/Ovelha",
+            "Macaco",
+            "Galo",
+            "Cão",
+            "Porco"
+        ],
+        "extraQuestion": "Por quantos dias o ovo centenário chinês é fermentado?",
+        "extraAnswer": "100"
+    },
+    {
+        "id": "pt31o",
+        "question": "Liste 7 amigos animais principais do 'Winnie-the-Pooh'",
+        "answers": [
+            "Kanga",
+            "Roo",
+            "Tigrão",
+            "Ió/Igor",
+            "Coelho",
+            "Coruja",
+            "Leitão/Piglet"
+        ],
+        "extraQuestion": "Em que ano foi publicado o primeiro livro de Winnie-the-Pooh?",
+        "extraAnswer": "1926"
+    },
+    {
+        "id": "pt33o",
+        "question": "Liste as 12 ferramentas do modelo Spartan dos Canivetes do Exército Suíço",
+        "answers": [
+            "Lâmina grande",
+            "Lâmina pequena",
+            "Saca-rolhas",
+            "Abridor de latas",
+            "Chave de fenda pequena",
+            "Abre-garrafas/caricas",
+            "Chave de fenda grande",
+            "Alicate Descascador de fios",
+            "Furador",
+            "Argola para chaveiro",
+            "Pinça",
+            "Palito de dentes"
+        ],
+        "extraQuestion": "Quantas ferramentas possui o canivete suíço Wenger Giant (o maior modelo - recorde mundial)?",
+        "extraAnswer": "87"
+    },
+    {
+        "id": "pt34o",
+        "question": "Entre 200 e 2015, a Pixar lançou 13. Listem-os",
+        "answers": [
+            "Monstros S.A.",
+            "Procurando Nemo",
+            "Os Incríveis",
+            "Carros",
+            "Ratatouille",
+            "Wall-E",
+            "Up",
+            "Toy Story 3",
+            "Carros 2",
+            "Valente/Brave-Indomável",
+            "Universidade Monstros",
+            "Divertida Mente",
+            "O Bom Dinossauro"
+        ],
+        "extraQuestion": "Qual a nota (em %) de 'Carros 2' no Rotten Tomatoes?",
+        "extraAnswer": "39"
+    },
+    {
+        "id": "pt39o",
+        "question": "Liste os 6 personagens principais da série 'Friends'",
+        "answers": [
+            "Rachel Green",
+            "Monica Geller",
+            "Ross Geller",
+            "Phoebe Buffay",
+            "Joey Tribbiani",
+            "Chandler Bing"
+        ],
+        "extraQuestion": "Quantos milhões de pessoas assistiram ao episódio final nos EUA?",
+        "extraAnswer": "52.5"
+    },
+    {
+        "id": "pt41o",
+        "question": "Liste as 9 nações que perderam mais soldados na 2ª Guerra Mundial",
+        "answers": [
+            "Alemanha",
+            "Rússia",
+            "França",
+            "Áustria-Hungria",
+            "Império Britânico",
+            "Itália",
+            "Romênia",
+            "Turquia",
+            "Estados Unidos"
+        ],
+        "extraQuestion": "Quantas quilómetros de arame farpado foram usadas na Frente Ocidental?",
+        "extraAnswer": "1610000km"
+    },
+    {
+        "id": "pt42o",
+        "question": "Liste os Dez Mandamentos do Antigo testamento",
+        "answers": [
+            "Não terás outros deuses",
+            "Não farás ídolos",
+            "Não tomarás o nome de Deus em vão",
+            "Guardarás o sábado",
+            "Honrar pai e mãe/família",
+            "Não matarás",
+            "Não adulterarás",
+            "Não roubarás",
+            "Não levantarás falso testemunho",
+            "Não cobiçarás"
+        ],
+        "extraQuestion": "Quantos anos viveu Noé?",
+        "extraAnswer": "950"
+    },
+    {
+        "id": "pt46o",
+        "question": "Liste as 10 bandas com maior nº de vendas de todos os tempos",
+        "answers": [
+            "ABBA",
+            "Queen",
+            "The Rolling Stones",
+            "Aerosmith",
+            "AC/DC",
+            "Pink Floyd",
+            "The Eagles",
+            "Led Zeppelin",
+            "U2",
+            "The Beatles"
+        ],
+        "extraQuestion": "Quantos álbuns os Beatles venderam mundialmente?",
+        "extraAnswer": "250 milhões"
+    },
+    {
+        "id": "pt51o",
+        "question": "Liste as 7 peças do uniforme escoteiro, sem contar cuecas ou sapatos",
+        "answers": [
+            "Camisa",
+            "Calças/Calções",
+            "Cinto",
+            "Meias",
+            "Boné",
+            "Lenço de pescoço/escoteiro",
+            "Anilha do lenço"
+        ],
+        "extraQuestion": "Quantos exemplares o livro 'Escotismo para Rapazes' de Baden-Powell vendeu desde 1908?",
+        "extraAnswer": "150 milhões"
+    },
+    {
+        "id": "pt61o",
+        "question": "Liste os 10 singles mais vendidos dos ABBA",
+        "answers": [
+            "Dancing Queen",
+            "Take a Chance on Me",
+            "Knowing Me, Knowing You",
+            "S.O.S",
+            "Lay All Your Love On Me",
+            "Waterloo",
+            "Fernando",
+            "Does Your Mother Know?",
+            "The Winner Takes It All",
+            "Mamma Mia"
+        ],
+        "extraQuestion": "Em que ano foi a última apresentação pública do ABBA?",
+        "extraAnswer": "1982"
+    },
+    {
+        "id": "pt62o",
+        "question": "Liste os 8 eventos olímpicos que fazem parte do programa masculino e feminino de ginástica",
+        "answers": [
+            "Solo",
+            "Cavalo com alças",
+            "Argolas",
+            "Salto sobre o cavalo",
+            "Barras paralelas",
+            "Barra fixa/horizontal/alto",
+            "Barras assimétricas",
+            "Trave de equilíbrio/olímpica"
+        ],
+        "extraQuestion": "Em que ano as mulheres puderam competir na ginástica olímpica?",
+        "extraAnswer": "1952"
+    },
+    {
+        "id": "pt63o",
+        "question": "Liste os 12 países da América do Sul (Central não conta)",
+        "answers": [
+            "Argentina",
+            "Brasil",
+            "Uruguai",
+            "Paraguai",
+            "Chile",
+            "Peru",
+            "Bolívia",
+            "Equador",
+            "Colômbia",
+            "Venezuela",
+            "Suriname",
+            "Guiana"
+        ],
+        "extraQuestion": "Qual era a população do Brasil em 2024?",
+        "extraAnswer": "214 244 000"
+    },
+    {
+        "id": "pt73o",
+        "question": "Listem os 8 eventos do atletismo olímpico de campo e salto (aka não envolvem correr)",
+        "answers": [
+            "Salto com vara",
+            "Salto em altura",
+            "Salto em distância",
+            "Triplo Salto",
+            "Arremesso de peso",
+            "Lançamento de disco",
+            "Lançamento de martelo",
+            "Lançamento de dardo"
+        ],
+        "extraQuestion": "Em que ano a esclada de corda estreou como desporto olímpico? (Apenas por um ano)",
+        "extraAnswer": "1896"
+    },
+    {
+        "id": "pt74o",
+        "question": "Listem os 10 países mais populosos de língua inglesa",
+        "answers": [
+            "EUA",
+            "Reino Unido",
+            "Canadá",
+            "Austrália",
+            "Irlanda",
+            "Nigéria",
+            "Nova Zelândia",
+            "África do Sul",
+            "Filipinas",
+            "Jamaica"
+        ],
+        "extraQuestion": "Quantas horas leva, em média, para aprender inglês conversacional?",
+        "extraAnswer": "360"
+    },
+    {
+        "id": "pt76o",
+        "question": "Listem os 10 ingredientes clássicos de um Bloody Mary",
+        "answers": [
+            "Vodca",
+            "Suco de tomate",
+            "Molho Tabasco",
+            "Fatias de limão",
+            "Fatias de lima",
+            "Sal de aipo",
+            "Rábano/Rabiça/Raiz forte",
+            "Molho inglês/Worcester",
+            "Pimenta preta",
+            "Pimentão fumado"
+        ],
+        "extraQuestion": "Quantos tomates o maior tomateiro do mundo (na Disney World) produzia por ano?",
+        "extraAnswer": "32.000"
+    },
+    {
+        "id": "pt77o",
+        "question": "Listem as 8 cores que o olho humano pode ter",
+        "answers": [
+            "Azul",
+            "Azul-esverdeado",
+            "Cinza",
+            "Castanho",
+            "Verde",
+            "Avelã/Castanho Esverdeado",
+            "Ambâr/Ocre/Mel",
+            "Vermelho (Albinismo)"
+        ],
+        "extraQuestion": "Qual o preço médio da correção a laser de um olho (em euros)?",
+        "extraAnswer": "1700€"
+    },
+    {
+        "id": "pt80o",
+        "question": "Liste os 7 países da América Central",
+        "answers": [
+            "Belize",
+            "Guatemala",
+            "El Salvador",
+            "Honduras",
+            "Nicarágua",
+            "Costa Rica",
+            "Panamá"
+        ],
+        "extraQuestion": "Quantos quilómetros tem o Canal do Panamá?",
+        "extraAnswer": "77km"
     }
 
 
