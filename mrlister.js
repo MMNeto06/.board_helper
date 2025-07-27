@@ -25,7 +25,7 @@ $(document).ready(function(){
             $question.html(card.question);
             $extraQuestion.html(card.extraQuestion);
             $extraAnswer.html(card.extraAnswer);
-            $cardID.html(card.cardID);
+            $cardID.html(card.id);
             
             var content = "";
             for(let i = 0; i<card.answers.length; i++){

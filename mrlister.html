@@ -13,7 +13,10 @@
         <h5>Board helper</h5>
         <h3>Gerador de cartas de Mr Lister</h3>
         <br/>
-
+        
+        <!--a implementar:
+        resto das cartas (as adaptadas)
+        -->
         <div class="form-group container">
             <h4 style="font-size: xx-large;"><b id="question">A categoria a listar fica aqui</b></h4>
             <div class="row" id="answers">
@@ -67,7 +70,47 @@
 
         <p class="pt-3 mt-3" id="cardID">PT00</p>
 
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <i class="fa fa-question-circle" aria-hidden="true"></i> Ajuda
+        </button>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel"><i class="fa fa-question-circle" aria-hidden="true"></i>Ajuda</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        As regras originas são as seguintes:<br/>
+                        1.º Uma pessoa lê as cartas, o resto divide-se em
+                        duas equipas.<br />
+                        2.º O Mestre de Perguntas lê uma pergunta.<br />
+                        3.º As equipas revezam-se para disparar uma resposta.<br />
+                        4.º Acerte uma e já está.<br />
+                        5.º Se falhar uma, será um erro.<br />
+                        6.º Depois de cada um ter três tentativas de resposta,<br />
+                        some os acertos.<br />
+                        7.º A equipa com mais rebatidas ganha um ponto.<br />
+                        8.º Se houver empate, ambas as equipas devem defrontar-se<br />
+                        no Last Chance Saloon respondendo a
+                        pergunta impossível. Cada um deles escreve uma
+                        responda e revele-a ao mesmo tempo. Quem quer que seja
+                        quem se aproximar mais da resposta ganha o ponto.<br />
+                        9.º O primeiro time a ganhar dez pontos é o vencedor.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <a class="btn btn-outline-primary" href="index.html" role="button">Voltar</a>
+
+
     </div>
 
 
