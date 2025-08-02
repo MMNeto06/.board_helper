@@ -783,6 +783,342 @@
         ],
         "extraQuestion": "Quantos quilómetros tem o Canal do Panamá?",
         "extraAnswer": "77km"
+    },
+    {
+        "id": "pt06au",
+        "question": "Listem 12 formas 'mais comuns' de pedir café",
+        "answers": [
+            "Abatanado",
+            "Café s/princípio",
+            "Café/Bica/Cimbalino",
+            "Descafeinado",
+            "C/Cheirinho",
+            "Italiana/Curto",
+            "Café Duplo",
+            "Galão",
+            "Garoto/Pingado/Pingo",
+            "Meia de Leite",
+            "Carioca",
+            "Mazagran"
+        ],
+        "extraQuestion": "Que percentagem dos portugueses bebem café diariamente?",
+        "extraAnswer": "80%"
+    },
+    {
+        "id": "pt11au",
+        "question": "Liste os 11 géneros musicais mais populares do Spotify",
+        "answers": [
+            "Metal",
+            "Country",
+            "Rock",
+            "Pop",
+            "Folk/Folclórica",
+            "Hip Hop",
+            "Reggae",
+            "Jazz",
+            "EDM/Eletrónica",
+            "Clássica",
+            "Blues"
+        ],
+        "extraQuestion": "Quantos euros é que espetáculos ao vivo (teatro e concertos) renderam em 2023?",
+        "extraAnswer": "~190 milhões"
+    },
+    {
+        "id": "pt40a",
+        "question": "Listem os 7 vlaores que uma peça de Scrabble (exceto a peça em Branco) pode ter",
+        "answers": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "8"
+        ],
+        "extraQuestion": "Qual é o valor formado quando juntas o valor de todas as 120 peças do Scrabble?",
+        "extraAnswer": "204"
+    },
+    {
+        "id": "pt44au",
+        "question": "Existem 11 coisas comuns deixadas para trás em hotéis. Listem-as",
+        "answers": [
+            "Telemóveis e carregadores",
+            "Roupas interior",
+            "Dentaduras",
+            "Aparelhos auditivos",
+            "Chaves",
+            "Sapatos/Roupas",
+            "Artigos de higiene",
+            "Brinquedos adultos",
+            "Escovas de dentes elétricas",
+            "Portáteis",
+            "Joias"
+        ],
+        "extraQuestion": "Em 2024, quantos alojamentos turísticos (hotéis, pensões, pousadas, móteis, ...) existiam em Portugal?",
+        "extraAnswer": "8173"
+    },
+    {
+        "id": "pt48a",
+        "question": "Liste os 12 países europeus com monrquias soberanas",
+        "answers": [
+            "Andorra",
+            "Bélgica",
+            "Dinamarca",
+            "Liechtenstein",
+            "Luxemburgo",
+            "Mônaco",
+            "Países Baixos",
+            "Noruega",
+            "Espanha",
+            "Suécia",
+            "Reino Unido",
+            "Vaticano"
+        ],
+        "extraQuestion": "Com quantos anos D. Afonso Henriques morreu?",
+        "extraAnswer": "76"
+    },
+    {
+        "id": "pt49a",
+        "question": "Listem as 13 castas portuguesas que se destacam em relação a outras (Inclui tintos e brancos)",
+        "answers": [
+            "Touriga Nacional",
+            "Baga",
+            "Castelão",
+            "Touriga Franca",
+            "Trincadeira(Tinta Amarela)",
+            "Alvarinho",
+            "Loureiro",
+            "Arinto",
+            "Encruzado",
+            "Bical",
+            "Fernão Pires",
+            "Moscatel",
+            "Malvasia fina"
+        ],
+        "extraQuestion": "Quantas calorias tem 100g de vinho branco?",
+        "extraAnswer": "82"
+    },
+    {
+        "id": "pt50au",
+        "question": "Liste os 11 maiores países onde espanhol é a língua materna",
+        "answers": [
+            "México",
+            "Espanha",
+            "Colômbia",
+            "Argentina",
+            "Peru",
+            "Venezuela",
+            "Chile",
+            "Equador",
+            "Guatemala",
+            "Cuba",
+            "Bolívia"
+        ],
+        "extraQuestion": "Quantas pessoas falam espanhol em Portugal (como língua estrangeira)?",
+        "extraAnswer": "1.583.600"
+    },
+    {
+        "id": "pt55au",
+        "question": "Existem 12 casinos em Portugal. Listem as suas localizações",
+        "answers": [
+            "Póvoa do Varzim",
+            "Chaves",
+            "Espinho",
+            "Figueira da Foz",
+            "Estoril",
+            "Lisboa",
+            "Tróia",
+            "Vilamoura",
+            "Monte Gordo",
+            "Portimão",
+            "Funchal",
+            "São Miguel"
+        ],
+        "extraQuestion": "Qaunto euros faz o estado português com apostas online?",
+        "extraAnswer": "9 milhões"
+    },
+    {
+        "id": "pt56au",
+        "question": "Listem a s8 cores diferentes dos citurões de judo em Portugal",
+        "answers": [
+            "Branco",
+            "Amarelo",
+            "Laranja",
+            "Verde",
+            "Azul",
+            "Negro",
+            "Castanho",
+            "Vermelho"
+        ],
+        "extraQuestion": "Quantos anos Chuck Norris completou em março de 2025?",
+        "extraAnswer": "85"
+    },
+    {
+        "id": "pt57a",
+        "question": "Listem os 12 ingredientes no molho barbecue da Calvé (excluindo água, espessante e conservantes)",
+        "answers": [
+            "Açúcar",
+            "Vinagre de vinho branco",
+            "Pasta de Tomate",
+            "Melaços",
+            "Sal",
+            "Amido de milho",
+            "Molho Inglês",
+            "Óleo de Girassol",
+            "Aroma de fumo",
+            "Cebola (fumada)",
+            "Farinha de mostarda",
+            "Alho"
+        ],
+        "extraQuestion": "A partir de que ano é que a Calvé começou a vender molhos?",
+        "extraAnswer": "1989"
+    },
+    {
+        "id": "pt66a",
+        "question": "Listem as 12 nozes, sementes e frutos secos e de casca rija mais populares",
+        "answers": [
+            "Cajus",
+            "Pistáchio",
+            "Nozes",
+            "Amêndoas",
+            "Figos secos",
+            "Amendoins",
+            "Damasco seco",
+            "Sementes de abóbora",
+            "Avelãs",
+            "Sementes de chia",
+            "Sementes de girassol",
+            "Noz Pecã"
+        ],
+        "extraQuestion": "Qual porcentagem da população portuguesa tem alergia a qualquer fruto seco ou semente?",
+        "extraAnswer": "1"
+    },
+    {
+        "id": "pt68a",
+        "question": "Listem os 9 instrumentos de sopro de metal ou cordas que existem numa orquestra sinfónica",
+        "answers": [
+            "Trompa",
+            "Trompete",
+            "Trombone",
+            "Tuba",
+            "Violino",
+            "Viola",
+            "Violoncelo",
+            "Contrabaixo",
+            "Harpa"
+        ],
+        "extraQuestion": "Quantas pessoas participaram da maior orquestra 'coconut shell' do mundo?",
+        "extraAnswer": "5.567"
+    },
+    {
+        "id": "pt71au",
+        "question": "Listem os 10 países mais visitados do mundo",
+        "answers": [
+            "França",
+            "Espanha",
+            "EUA",
+            "Turquia",
+            "Itália",
+            "México",
+            "Alemanha",
+            "Reino Unido",
+            "Japão",
+            "Grécia"
+        ],
+        "extraQuestion": "França está em nº1 nesta lista. Quantos turistas internacionais teve em 2024?",
+        "extraAnswer": "102 milhões"
+    },
+    {
+        "id": "pt75o",
+        "question": "Listem as 9 desculpas comuns para não entregar o trabalho de casa",
+        "answers": [
+            "O cão comeu-o",
+            "Esqueci",
+            "Impressora/computador avariou",
+            "Estava doente",
+            "Perdi",
+            "Foi parar na máquina de lavar",
+            "Muito trabalho",
+            "Alguém morreu",
+            "Não sabia que tinha"
+        ],
+        "extraQuestion": "Quantas horas por semana gasta um aluno de 15 anos a fazer TPC?",
+        "extraAnswer": "14.4"
+    },
+    {
+        "id": "pt78a",
+        "question": "Liste os 14 medos/fobias mais comuns",
+        "answers": [
+            "Aranhas",
+            "Cobras",
+            "Altura",
+            "Espaços fechados",
+            "Espaços abertos",
+            "Cães",
+            "Tempestades",
+            "Voar",
+            "Buracos",
+            "Germes/Terra",
+            "Falar em público",
+            "Cancro",
+            "Estar sozinho",
+            "Morte/morrer"
+        ],
+        "extraQuestion": "Qual a percentagem de portugueses que sofre um bocadinho de aviofobia (medo de voar)?",
+        "extraAnswer": "33"
+    },
+    {
+        "id": "pt59s",
+        "question": "Listem os 10 gases em maior quantidade na atmosfera",
+        "answers": [
+            "Nitrogénio/Azoto",
+            "Oxigénio",
+            "Árgon",
+            "Dióxido de carbono",
+            "Néon",
+            "Metano",
+            "Hélio",
+            "Cripton",
+            "Hidrogénio",
+            "Vapor de água"
+        ],
+        "extraQuestion": "Quantos litros de metano produz uma vaca por dia?",
+        "extraAnswer": "250"
+    },
+    {
+        "id": "pt65a",
+        "question": "Liste os 10 animais selvagens mais perigosos do mundo",
+        "answers": [
+            "Aranhas",
+            "Escorpiões",
+            "Lobos",
+            "Coiotes",
+            "Onça-parda/Puma",
+            "Jacarés",
+            "Crocodilos",
+            "Cobras/Serpentes",
+            "Ursos",
+            "Cervos/Veados"
+        ],
+        "extraQuestion": "Quantas pessoas morrem em acidentes de carro por colidir com veados por ano?",
+        "extraAnswer": "200"
+    },
+    {
+        "id": "pt79a",
+        "question": "Listem as 9 personagens principais no 1º filme de Star Wars em 1977",
+        "answers": [
+            "Luke Skywalker",
+            "Han Solo",
+            "Princesa Leia",
+            "Grande Moff Tarkin",
+            "Ben Obi-Wan Kenobi",
+            "Darth Vader",
+            "C-3PO",
+            "R2-D2",
+            "Chewbacca"
+        ],
+        "extraQuestion": "Em euros, quanto é que a Disney pagou para comprar a Lucasfilms?",
+        "extraAnswer": "~3,4 biliões/mil milhões"
     }
 
 
