@@ -9,85 +9,284 @@
     <!-- <link href="stylesheet.css" rel="stylesheet" /> -->
 </head>
 <body>
+    <nav class="navbar navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="btn btn-outline-primary" href="index.html" role="button">Voltar</a>
+            <span class="navbar-brand">Nº de cartas: <span id="numberCards">0</span></span>
+            <span class="navbar-brand">Nº de jogadores: <span id="numberPlayers">0</span></span>
+            <button type="button" class="btn btn-outline-primary" id="play">Jogar</button>
+        </div>
+    </nav>
+
     <div class="container text-center pt-3 mt-3">
         <h5>Board helper</h5>
         <h3>Diretor de Noite de Werewolf</h3>
         <p>Inclui One Night Ultimate Werewolf + ONUW Daybreak</p>
         <br />
 
+        <h4>Lobisomem base</h4>
         <div class="row">
             <div class="col-md-3 col-6">
                 <div class="custom-control custom-checkbox image-checkbox">
-                    <input type="checkbox" class="custom-control-input" id="ck1a">
-                    <label class="custom-control-label" for="ck1a">
-                        <img src="https://placehold.co/400" alt="#" class="img-fluid">
-                        Sentinela
+                    <input type="checkbox" class="custom-control-input" id="lobisomem1">
+                    <label class="custom-control-label" for="lobisomem1">
+                        Lobisomem
+                        <img src="werewolfIcons/lobisomem.png" alt="lobisomem1" class="img-fluid">
                     </label>
                 </div>
             </div>
             <div class="col-md-3 col-6">
                 <div class="custom-control custom-checkbox image-checkbox">
-                    <input type="checkbox" class="custom-control-input" id="ck1b">
-                    <label class="custom-control-label" for="ck1b">
-                        <img src="https://placehold.co/400" alt="#" class="img-fluid">
-                        Sosia
+                    <input type="checkbox" class="custom-control-input" id="lobisomem2">
+                    <label class="custom-control-label" for="lobisomem2">
+                        Lobisomem
+                        <img src="werewolfIcons/lobisomem.png" alt="lobisomem2" class="img-fluid">
                     </label>
                 </div>
             </div>
             <div class="col-md-3 col-6">
                 <div class="custom-control custom-checkbox image-checkbox">
-                    <input type="checkbox" class="custom-control-input" id="ck1c">
-                    <label class="custom-control-label" for="ck1c">
-                        <img src="https://placehold.co/400" alt="#" class="img-fluid">
+                    <input type="checkbox" class="custom-control-input" id="subdito">
+                    <label class="custom-control-label" for="subdito">
+                        Súbdito
+                        <img src="werewolfIcons/subdito.png" alt="subdito" class="img-fluid">
                     </label>
                 </div>
             </div>
             <div class="col-md-3 col-6">
                 <div class="custom-control custom-checkbox image-checkbox">
-                    <input type="checkbox" class="custom-control-input" id="ck1d">
-                    <label class="custom-control-label" for="ck1d">
-                        <img src="https://placehold.co/400" alt="#" class="img-fluid">
+                    <input type="checkbox" class="custom-control-input" id="suicida">
+                    <label class="custom-control-label" for="suicida">
+                        Suicída*
+                        <img src="werewolfIcons/suicida.png" alt="suicida" class="img-fluid">
                     </label>
                 </div>
             </div>
             <div class="col-md-3 col-6">
                 <div class="custom-control custom-checkbox image-checkbox">
-                    <input type="checkbox" class="custom-control-input" id="ck1a">
-                    <label class="custom-control-label" for="ck1a">
-                        <img src="https://placehold.co/400" alt="#" class="img-fluid">
+                    <input type="checkbox" class="custom-control-input" id="vidente">
+                    <label class="custom-control-label" for="vidente">
+                        Vidente
+                        <img src="werewolfIcons/vidente.png" alt="vidente" class="img-fluid">
                     </label>
                 </div>
             </div>
             <div class="col-md-3 col-6">
                 <div class="custom-control custom-checkbox image-checkbox">
-                    <input type="checkbox" class="custom-control-input" id="ck1b">
-                    <label class="custom-control-label" for="ck1b">
-                        <img src="https://placehold.co/400" alt="#" class="img-fluid">
+                    <input type="checkbox" class="custom-control-input" id="ladrao">
+                    <label class="custom-control-label" for="ladrao">
+                        Ladrão 
+                        <img src="werewolfIcons/ladrao.png" alt="ladrao" class="img-fluid">
+
                     </label>
                 </div>
             </div>
             <div class="col-md-3 col-6">
                 <div class="custom-control custom-checkbox image-checkbox">
-                    <input type="checkbox" class="custom-control-input" id="ck1c">
-                    <label class="custom-control-label" for="ck1c">
-                        <img src="https://placehold.co/400" alt="#" class="img-fluid">
+                    <input type="checkbox" class="custom-control-input" id="problematica">
+                    <label class="custom-control-label" for="problematica">
+                        Problemática
+                        <img src="werewolfIcons/problematica.png" alt="problematica" class="img-fluid">
                     </label>
                 </div>
             </div>
             <div class="col-md-3 col-6">
                 <div class="custom-control custom-checkbox image-checkbox">
-                    <input type="checkbox" class="custom-control-input" id="ck1d">
-                    <label class="custom-control-label" for="ck1d">
-                        <img src="https://placehold.co/400" alt="#" class="img-fluid">
+                    <input type="checkbox" class="custom-control-input" id="bebado">
+                    <label class="custom-control-label" for="bebado">
+                        Bêbado
+                        <img src="werewolfIcons/bebado.png" alt="bebado" class="img-fluid">
+                    </label>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="custom-control custom-checkbox image-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="insonia">
+                    <label class="custom-control-label" for="insonia">
+                        Insónia
+                        <img src="werewolfIcons/insonia.png" alt="insonia" class="img-fluid">
+                    </label>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="custom-control custom-checkbox image-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="sosia">
+                    <label class="custom-control-label" for="sosia">
+                        Sósia
+                        <img src="werewolfIcons/sosia.png" alt="sosia" class="img-fluid">
+                    </label>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="custom-control custom-checkbox image-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="guarda1">
+                    <label class="custom-control-label" for="guarda1">
+                        Guarda
+                        <img src="werewolfIcons/guarda.png" alt="guarda1" class="img-fluid">
+                    </label>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="custom-control custom-checkbox image-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="guarda2">
+                    <label class="custom-control-label" for="guarda2">
+                        Guarda
+                        <img src="werewolfIcons/guarda.png" alt="guarda2" class="img-fluid">
+                    </label>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="custom-control custom-checkbox image-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="cacador">
+                    <label class="custom-control-label" for="cacador">
+                        Caçador
+                        <img src="werewolfIcons/cacador.png" alt="cacador" class="img-fluid">
+
+                    </label>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="custom-control custom-checkbox image-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="aldeao1">
+                    <label class="custom-control-label" for="aldeao1">
+                        Aldeão*
+                        <img src="werewolfIcons/aldeao.png" alt="aldeao1" class="img-fluid">
+                    </label>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="custom-control custom-checkbox image-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="aldeao2">
+                    <label class="custom-control-label" for="aldeao2">
+                        Aldeão*
+                        <img src="werewolfIcons/aldeao.png" alt="aldeao2" class="img-fluid">
+                    </label>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="custom-control custom-checkbox image-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="aldeao3">
+                    <label class="custom-control-label" for="aldeao3">
+                        Aldeão*
+                        <img src="werewolfIcons/aldeao.png" alt="aldeao3" class="img-fluid">
                     </label>
                 </div>
             </div>
         </div>
+        <br/>
+        <h4>Lobisomem Madrugada (Daybreak)</h4>
+        <div class="row">
+            <div class="col-md-3 col-6">
+                <div class="custom-control custom-checkbox image-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="lobisomemAlfa">
+                    <label class="custom-control-label" for="lobisomemAlfa">
+                        Lobisomem Alfa
+                        <img src="werewolfIcons/lobisomemAlfa.png" alt="lobisomemAlfa" class="img-fluid">
+                    </label>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="custom-control custom-checkbox image-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="lobisomemMistico">
+                    <label class="custom-control-label" for="lobisomemMistico">
+                        Lobisomem Místico
+                        <img src="werewolfIcons/lobisomemMistico.png" alt="lobisomemMistico" class="img-fluid">
+                    </label>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="custom-control custom-checkbox image-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="lobisomemDorminhoco">
+                    <label class="custom-control-label" for="lobisomemDorminhoco">
+                        Lobisomem Dorminhoco*
+                        <img src="werewolfIcons/lobisomemDorminhoco.png" alt="lobisomemDorminhoco" class="img-fluid">
+                    </label>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="custom-control custom-checkbox image-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="sentinela">
+                    <label class="custom-control-label" for="sentinela">
+                        Sentinela
+                        <img src="werewolfIcons/sentinela.png" alt="sentinela" class="img-fluid">
+                    </label>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="custom-control custom-checkbox image-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="videnteAprendiz">
+                    <label class="custom-control-label" for="videnteAprendiz">
+                        Vidente Aprendiz
+                        <img src="werewolfIcons/videnteAprendiz.png" alt="videnteAprendiz" class="img-fluid">
+                    </label>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="custom-control custom-checkbox image-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="revelador">
+                    <label class="custom-control-label" for="revelador">
+                        Revelador
+                        <img src="werewolfIcons/revelador.png" alt="revelador" class="img-fluid">
+                    </label>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="custom-control custom-checkbox image-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="investigadorParanormal">
+                    <label class="custom-control-label" for="investigadorParanormal">
+                        Investigador Paranormal
+                        <img src="werewolfIcons/investigadorParanormal.png" alt="investigadorParanormal" class="img-fluid">
+                    </label>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="custom-control custom-checkbox image-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="guardaCostas">
+                    <label class="custom-control-label" for="guardaCostas">
+                        Guarda Costas*
+                        <img src="werewolfIcons/guardaCostas.png" alt="guardaCostas" class="img-fluid">
+                    </label>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="custom-control custom-checkbox image-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="bruxa">
+                    <label class="custom-control-label" for="bruxa">
+                        Bruxa
+                        <img src="werewolfIcons/bruxa.png" alt="bruxa" class="img-fluid">
+                    </label>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="custom-control custom-checkbox image-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="curador">
+                    <label class="custom-control-label" for="curador">
+                        Curador
+                        <img src="werewolfIcons/curador.png" alt="curador" class="img-fluid">
+                    </label>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="custom-control custom-checkbox image-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="idiota">
+                    <label class="custom-control-label" for="idiota">
+                        Idiota
+                        <img src="werewolfIcons/idiota.png" alt="idiota" class="img-fluid">
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <br/>
+        <small>*Este personagem não atua durante a noite</small>
+        <br/>
+        
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.5.1/knockout-latest.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+    <script src="werewolf.js"></script>
 </body>
 </html>
