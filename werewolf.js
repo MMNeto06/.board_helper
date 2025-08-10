@@ -175,7 +175,14 @@ $(document).ready(function(){
         if(sentinela){
             console.log("sentinela ativa");
         }
-        if(sosia){
+        //exceções da sosia: subdito, insonia, curador e revelador
+        if(sosia && (subdito || insonia || curador || revelador)){
+            console.log("Sosia ativa com indicação das exceções")
+            if(sosia && subdito){
+                console.log("Sossia faz agora a açao do subdito")
+            }
+        }
+        else if(sosia){
             console.log("Sosia ativa");
         }
         if((lobisomem1 || lobisomem2 || lobisomemAlfa || lobisomemMistico) && lobisomemDorminhoco){
@@ -188,13 +195,55 @@ $(document).ready(function(){
             console.log("lobisomem alfa ativo");
         }
         if(lobisomemMistico){
-            console.log("lobisomem mistico ativo")
+            console.log("lobisomem mistico ativo");
         }
         if(subdito){
-            console.log("subdito ativo")
+            console.log("subdito ativo");
         }
-        
+        if(guarda1 || guarda2){
+            console.log("guarda ativo");
+        }
+        if(vidente){
+            console.log("vidente ativo");
+        }
+        if(videnteAprendiz){
+            console.log("vidente aprendiz ativo");
+        }
+        if(investigadorParanormal){
+            console.log("investigador paranormal ativo");
+        }        
+        if(ladrao){
+            console.log("ladrao ativo");
+        }
+        if(bruxa){
+            console.log("bruxa ativa");
+        }
+        if(problematica){
+            console.log("problematica ativa")
+        }
+        if(idiota){
+            console.log("idiota ativo");
+        }
+        if(bebado){
+            console.log("bebado ativo");
+        }
+        if(insonia){
+            console.log("pessoa com insonias ativo");
+        }
+        if(insonia && sosia){
+            console.log("sosia faz agora a ação da insonia");
+        }
+        if(revelador){
+            console.log("revelador ativo");
+        }
+        if(revelador && sosia){
+            console.log("sosia faz agora a ação do revelador");
+        }
+        if(curador){
+            console.log("curador ativo");
+        }
+        if(curador && sosia){
+            console.log("sosia faz agora a ação do curador");
+        }     
     });
-
-    
 })
