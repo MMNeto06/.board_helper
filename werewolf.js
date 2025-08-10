@@ -1,4 +1,8 @@
 $(document).ready(function(){
+    function sleep(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+    }
+
     var checkboxes = $("input[type=checkbox]");
 
     var lobisomem1 = false;
@@ -170,10 +174,15 @@ $(document).ready(function(){
         }
     })
 
+    var sentinelaAud = new Audio("werewolfAudio/sentinela.wav");
+    var fimAud = new Audio("werewolfAudio/fim.wav");
     //var fim = false
-    $("#play").click(function () { 
+    $("#play").click(async function () { 
+        //tocar audio de todos, fechem os olhos
         if(sentinela){
             console.log("sentinela ativa");
+            sentinelaAud.play();
+            await sleep(sentinelaAud.duration * 1000);
         }
         //exceções da sosia: subdito, insonia, curador e revelador
         if(sosia && (subdito || insonia || curador || revelador)){
@@ -244,6 +253,7 @@ $(document).ready(function(){
         }
         if(curador && sosia){
             console.log("sosia faz agora a ação do curador");
-        }     
+        }
+        fimAud.play();
     });
 })
