@@ -1,10 +1,11 @@
 $(document).ready(function(){
+    //adormece
     function sleep(ms) {
         return new Promise(resolve => setTimeout(resolve, ms));
     }
 
     var checkboxes = $("input[type=checkbox]");
-
+    //checks
     var lobisomem1 = false;
     var lobisomem2 = false;
     var subdito = false;
@@ -32,7 +33,7 @@ $(document).ready(function(){
     var bruxa = false;
     var curador = false;
     var idiota = false;
-
+    //changing checks
     checkboxes.on('change', function(){
         var numChecks = document.querySelectorAll('input[type="checkbox"]:checked').length;
         $("#numberCards").html(numChecks);
@@ -173,7 +174,7 @@ $(document).ready(function(){
             idiota = false;
         }
     })
-
+    //audio loading
     var audBebado = new Audio("werewolfAudio/Bebado.wav");
     var audBruxa = new Audio("werewolfAudio/Bruxa.wav");
     var audCurador = new Audio("werewolfAudio/Curador.wav");
@@ -202,7 +203,7 @@ $(document).ready(function(){
     var audVidente = new Audio("werewolfAudio/Vidente.wav");
     var audVidenteAprendiz = new Audio("werewolfAudio/VidenteAprendiz.wav");
     
-    //var fim = false
+    //playing audio
     $("#play").click(async function () { 
         //tocar audio de todos, fechem os olhos
         audInicio.play();
